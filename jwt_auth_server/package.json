@@ -1,0 +1,5 @@
+{
+  "name": "jwt_auth_server",
+  "private": true,
+  "dependencies": {}
+}

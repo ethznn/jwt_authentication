@@ -8,10 +8,11 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+
+log/*
+tmp/*
+log/.keep
+tmp/.keep
 
 # Ignore uploaded files in development
 /storage/*
@@ -22,3 +23,6 @@
 master.key
 credentials.yml.enc
 database.yml
+
+jwt_auth_server/log/
+jwt_auth_server/tmp/
